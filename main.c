@@ -1,6 +1,6 @@
 #include <stdio.h>
 int a, i, y;
-main(){
+int main(){
 	printf("Enter a = ");
 	scanf("%d",&a);
 	printf("The multiplication table of %d is :\n", a);
@@ -8,5 +8,5 @@ main(){
 		y = a * i;
 		printf("%d x %d = %d \n", a, i, a * i);
 	}
-	return a;
+	return 0;
 }
